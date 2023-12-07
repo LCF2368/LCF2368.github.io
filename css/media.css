@@ -1,0 +1,11 @@
+section h2{
+    text-align: center;
+}
+
+video, audio {
+    width: 80%; /* Set the width as needed */
+    max-width: 600px; /* Set a maximum width for larger screens */
+    margin: 20px auto; /* Center the media elements */
+    display: block;
+  }
+ 

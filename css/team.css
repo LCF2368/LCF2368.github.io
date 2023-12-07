@@ -1,0 +1,47 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.grid-item4 {
+    grid-column: 1 / span 1;
+}
+
+.grid-item5{
+    grid-column: 2/span 1;
+}
+
+.grid-item6{
+    background-color: blanchedalmond;
+    border-style: double;
+    grid-column: 1/span 2;
+}
+
+section h2{
+    text-align: center;
+	color: yellowgreen;
+	-webkit-text-stroke: 1px green;
+
+}
+
+.frame {
+	position: relative;
+	max-width: 450px;
+	margin: 2% auto;
+}
+
+.pic-text {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+	color:white;
+	width: 86%;
+	padding: 20px;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+

@@ -1,0 +1,79 @@
+table {
+    border: 3px solid #000;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+   
+}
+
+table caption{
+    background-color: chocolate;
+    border-style:double;
+    font-size: x-large;
+}
+
+table tr,th,td{
+    border: 3px solid #000;
+    text-align: center;
+}
+
+table th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: orange;
+    padding: auto;
+}
+
+tr:nth-child(odd) {
+    background-color: bisque;
+}
+
+tr:nth-child(even){
+    background-color:burlywood;
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+
+tfooter{
+    text-align: center;
+    font-style: italic;
+    font-size: 55%;
+}
+
+
+@media screen and (min-width: 1921px) {
+    .mobile-table{
+        display:none
+    }
+}
+
+@media screen and (min-width: 1015px), print {
+    .mobile-table{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 630px), print {
+    .mobile-table{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width: 629px), print {
+    .mobile-table{
+        font-size: x-small;
+    }
+
+    table {
+        border: 3px solid #000;
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 80%;
+       
+    }
+}
+
+
